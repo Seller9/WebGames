@@ -1,0 +1,42 @@
+
+#hidden-break-1 {
+	display: block;
+}
+
+#header-title {
+	margin: 10px;
+	font-size: 30px;
+   text-align: center;
+}
+
+
+#rps-selectors {
+	display: flex;
+	justify-content: center;
+	border: 1px solid black;
+}
+
+.rps-select {
+	margin: 10px 30px;
+	padding: 20px;
+	font-size: 30px;
+   text-align: center;
+   border: 1px solid black;
+}
+
+.confirm {
+	font-size: 50px;
+   text-align: center;
+}
+
+.rps-container {
+	margin-left: 50px
+}
+
+.rps-container-text {
+	margin-left: 30px
+}
+
+#rps-confirm-button {
+	margin-left: 20px
+}

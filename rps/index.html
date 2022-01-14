@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="light.css">
+<script src="main.js"></script>
+
+<body>
+
+<! --- Start Navbar --->
+
+<div id='navbar'>
+
+
+
+<hr>
+</div>
+
+<! --- End Navbar, Start Header --->
+
+<div id='header'>
+
+<h1 id='header-title'>Rock Paper Scissors</h1>
+
+</div>
+
+<! --- End Header, Start Body --->
+
+<div id='body'>
+<hr>
+
+
+<div id='rps-selectors'>
+
+<div class='rps-select' id='rps-select-rock'>
+<p class='rps-select-title'>Rock</p>
+<button class='rps-select-button' onclick="select('rock')">Select</button>
+</div>
+
+<div class='rps-select' id='rps-select-rps-select-paper'>
+<p class='rps-select-title'>Paper</p>
+<button class='rps-select-button' onclick="select('paper')">Select</button>
+</div>
+
+
+<div class='rps-select' id='rps-select-scissors'>
+<p class='rps-select-title'>Scissors</p>
+<button class='rps-select-button' onclick="select('scissors')">Select</button>
+</div>
+
+</div>
+
+ 
+<div class='rps-container' id='rps-confirm'>
+<h2>You have chosen:</h2>
+<p class='rps-container-text' id='rps-confirm-text'>None</p>
+<button id='rps-confirm-button' onclick="confirm()">Confirm</button>
+</div>
+
+<br>
+
+<div class='rps-container' id="rps-bot">
+<h2>Bot chose:</h2>
+<br class='hidden-break' id='hidden-break-1'>
+<p class='rps-container-text' id='rps-bot-text'></p>
+</div>
+
+<br>
+
+<div class='rps-container' id="rps-result">
+<p class='rps-container-text' id='rps-result-text'>Result:</p>
+</div>
+
+<hr>
+</div>
+
+<! --- End Body, Start Footer --->
+
+<div class='footer'>
+
+
+
+</div>
+
+<! --- End Footer --->
+
+</body>
+</html>
